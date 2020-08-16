@@ -1,0 +1,27 @@
+Package: depLT
+Type: Package
+Title: Estimation of Survival Function under Dependent Left Truncation
+Version: 0.1.0
+Author: Bella Vakulenko-Lagun, Jing Qian, Rebecca A. Betensky
+Maintainer: Bella Vakulenko-Lagun <blagun@stat.haifa.ac.il>
+Description: The package is designed for analysis of left-truncated data where truncation time and lifetime are dependent.
+    It is assumed that the dependence is induced by measured covariates.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.6)
+Imports: 
+    survival,
+    inline,
+    tidyverse 
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    prettydoc
+VignetteBuilder: knitr
+URL: https://github.com/Bella2001/depLT
+BugReports: https://github.com/Bella2001/depLT/issues
+
+
